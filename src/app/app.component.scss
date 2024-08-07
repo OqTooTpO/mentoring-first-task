@@ -1,0 +1,283 @@
+
+
+html, body {
+
+  height: 100%;
+  font-family: 'Inter';
+
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+  height: 80px;
+}
+.call {
+  display: flex;
+  align-items: center;
+  
+}
+.tel {
+  text-decoration: none;
+  color: white;
+  margin: 5px;
+}
+.banner {
+  background-image: url(/assets/banner.jpg);
+  height: 720px;
+  width: 1920px;
+  
+}  
+.slogan {
+  position: absolute;
+  color: #F0BA4E;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 56px;
+  margin: 304px 215px 304px 300px;
+}
+.nav-container {
+  width: 1080px;
+  height: 128px;
+  display: flex;
+  justify-content: space-between;
+}
+.menu-items-container {
+  display: flex;
+  align-items: center;
+}
+.map {
+  display: flex;
+  color: #fff;
+  margin: 24px;
+}
+.moscow {
+  margin: 4px;
+}
+.menu-item {
+  cursor: pointer;
+  margin-left: 24px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.white-color{
+  color: white;
+}
+.header-info-container{
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+  justify-content: center;
+}
+.cart-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  width: 125px;
+  height: 50px;
+  border-radius: 50px;
+  border: 1px solid #F0BA4E;
+  background-color: #4B565E;
+  color: white;
+  cursor: pointer;
+  
+}
+header {
+  background-color: #4B565E;
+  
+}
+footer {
+  background-color: #4B565E;
+  height: 373px;
+}
+.second-nav{
+  background: #F0BA4E;
+  display: flex;
+  justify-content: center;
+}
+.second-nav-container {
+  height: 48px;
+  width: 1080px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.search-input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+  width: 400px;
+  height: 30px;
+  background: url(/assets/search.svg) no-repeat right ;
+}
+  .search-input:focus{
+    outline: none;
+  }
+
+
+.advantage {
+  display: flex;
+  
+  max-width: 420px;
+ margin-top: 30px;
+
+}
+.advantage-content {
+  
+  padding-top: 8px;
+  padding-left: 16px;
+}
+.advantage-content-title {
+  font-size: 18px;
+}
+.advantage-content-text{
+  color: #A1A0A0;
+}
+
+.content {
+
+  max-width: 1080px;
+  margin: 0px 300px 0 300px;
+  display: flex;
+
+}
+
+
+.sections-container {
+  display: flex;
+  margin: auto;
+  width: 1320px;
+  height: 463px;
+  
+  background-color: rgb(253, 252, 252);
+}
+
+.section-shadow {
+  box-shadow: 0px 5px 5px 6px rgba(0, 4, 7, 0.13);
+}
+.section1{
+  display: flex;
+ 
+  margin-top: 35px;
+ 
+  background-color: #fff;
+  background-image: url(/assets/1.png) ;
+  background-repeat: no-repeat;
+  background-position-y: bottom ;
+
+}
+.section2 {
+  margin: 35px 0 0 28px;
+  display: grid; 
+  grid-template-columns: 1fr 1fr;
+  gap: 28px 28px; 
+}
+.size {
+  width: 421px;
+  height: 200px;
+  background-color: rgb(250, 250, 250);
+}
+
+.section1-text{
+  display: flex;
+  align-items: end;
+  justify-content: end;
+ 
+}
+.img1 {
+ 
+ padding: 30px 86px 0 -114px;
+}
+.section1-p {
+  position: absolute;
+  display: flex;
+  align-items: center;
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 17px;
+ white-space: nowrap;
+ margin-right: 16px;
+}
+.arrow {
+  
+  margin-left: 10px;
+}
+
+.section1-title{
+  padding: 16px 16px 0 16px;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+  color:  #3C3C3B;
+}
+
+.section-emal {
+  display: flex;
+  justify-content: end;
+}
+.section-emal2{
+  display: flex;
+  justify-content: start;
+  
+}
+.contact-container {
+  margin: auto;
+  max-width: 1080px;
+  display: flex;
+}
+.logo {
+  margin: 32px 0 32px 0;
+}
+.spisok {
+  display: flex;
+  column-gap: 56px ;
+  
+}
+.none1 {
+  list-style-type: none;
+}
+.none2 {
+  list-style-type: none;
+}
+
+.contacts {
+  
+  color: #FFFFFF99;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  flex-direction: row-reverse;
+
+  
+}
+.call {
+  padding-right: 12px;
+  margin-right: 12px;
+}
+.mail {
+  padding-right: 12px;
+}
+.info {
+  margin-right: 12px;
+}
+.qa {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  border: none;
+}
+
+
+
+
+
